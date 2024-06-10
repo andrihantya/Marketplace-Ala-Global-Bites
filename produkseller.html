@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Bites - Produk Seller</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Global Bites</a>
+        <!-- ... (Navigasi) ... -->
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mb-4">Produk Saya</h1>
+                <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#modalAddProduct">Tambahkan Produk Baru</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Contoh Card Produk -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/featured/?food" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nama Produk</h5>
+                        <p class="card-text">Deskripsi produk singkat. Jenis masakan: ... . Keunikan: ... .</p>
+                        <a href="#" class="btn btn-primary">Edit</a>
+                        <a href="#" class="btn btn-danger">Hapus</a>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+
+    </div>
+
+    <!-- Modal Tambah Produk -->
+    <div class="modal fade" id="modalAddProduct" tabindex="-1" aria-labelledby="modalAddProductLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAddProductLabel">Tambahkan Produk Baru</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span
